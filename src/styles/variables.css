@@ -1,0 +1,27 @@
+:root {
+    --gutter-xs: .4em;
+    --gutter-s: .8em;
+    --gutter-m: 1.2em;
+    --gutter-l: 2em;
+    --gutter-xl: 4em;
+    
+    --border-width-s: .1em;
+    --border-width-m: .2em;
+    --border-width-l: .8em;
+
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-size-s: .8em;
+    --font-size-m: 1em;
+    --font-size-l: 1.2em;
+    --font-size-xl: 2em;
+
+    --color-primary: #fafafa;
+    --color-secondary: #aaa;
+    --color-tertiary: #bbb;
+    --color-text: #3d3c3c;
+
+    --color-status-success: #3d3c3c;
+    --color-status-success-bg: #fff;
+    --color-status-error: #c7254e;
+    --color-status-error-bg: #f9f2f4;
+}

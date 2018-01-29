@@ -1,0 +1,11 @@
+.header {
+    padding: var(--gutter-m);
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: var(--font-size-xl);
+    color: rgba(0, 0, 0, .6);
+}

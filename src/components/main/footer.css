@@ -1,0 +1,16 @@
+.footer {
+    margin: var(--gutter-l) 0;
+    padding: var(--gutter-xl) 0;
+    background-color: var(--color-primary);
+    text-align: center;
+}
+
+.footer span {
+    font-size: var(--font-size-s);
+}
+
+.footer a {
+    color: var(--color-text);
+    font-weight: bold;
+    text-decoration: none;
+}

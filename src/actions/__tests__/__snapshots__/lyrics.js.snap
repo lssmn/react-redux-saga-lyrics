@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lyrics actions lyricsGet 1`] = `
+Object {
+  "payload": Object {
+    "artist": "Artist",
+    "title": "Title",
+  },
+  "type": "LYRICS_GET",
+}
+`;
+
+exports[`lyrics actions lyricsGetFailed 1`] = `
+Object {
+  "payload": Object {
+    "error": "Error",
+  },
+  "type": "LYRICS_GET_FAILED",
+}
+`;
+
+exports[`lyrics actions lyricsGetSuccess 1`] = `
+Object {
+  "payload": Object {
+    "song": Object {
+      "artist": "Artist",
+      "lyrics": "Lyrics",
+      "title": "Title",
+    },
+  },
+  "type": "LYRICS_GET_SUCCESS",
+}
+`;
+
+exports[`lyrics actions lyricsSuggestions 1`] = `
+Object {
+  "payload": "test",
+  "type": "LYRICS_SUGGEST",
+}
+`;
+
+exports[`lyrics actions lyricsSuggestionsFailed 1`] = `
+Object {
+  "payload": Object {
+    "error": "Error",
+  },
+  "type": "LYRICS_SUGGEST_FAILED",
+}
+`;
+
+exports[`lyrics actions lyricsSuggestionsSuccess 1`] = `
+Object {
+  "payload": Object {
+    "suggestions": Array [],
+  },
+  "type": "LYRICS_SUGGEST_SUCCESS",
+}
+`;

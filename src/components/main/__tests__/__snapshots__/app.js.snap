@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render without exploding 1`] = `
+<div>
+  <Header />
+  <main>
+    <Connect(SearchContainer) />
+    <Connect(ResultContainer) />
+  </main>
+  <Footer />
+</div>
+`;

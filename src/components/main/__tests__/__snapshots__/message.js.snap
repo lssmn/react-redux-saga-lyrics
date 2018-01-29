@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message component should render passing the size prop 1`] = `
+<section
+  className="undefined undefined undefined"
+>
+  <span>
+    My message
+  </span>
+</section>
+`;
+
+exports[`Message component should render passing the type prop 1`] = `
+<section
+  className="undefined undefined undefined"
+>
+  <span>
+    My message
+  </span>
+</section>
+`;
+
+exports[`Message component should render without exploding 1`] = `
+<section
+  className="undefined undefined undefined"
+>
+  <span>
+    My message
+  </span>
+</section>
+`;

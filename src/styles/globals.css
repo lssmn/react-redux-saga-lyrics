@@ -1,0 +1,21 @@
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: var(--gutter-m);
+    margin: var(--gutter-m) 0 0 0;
+    border: var(--border-width-s) solid var(--color-tertiary);
+    outline: 0;
+    font-size: var(--font-size-l);
+}
+
+::selection {
+    background-color: var(--color-secondary);
+    color: #fff;
+}

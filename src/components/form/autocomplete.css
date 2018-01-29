@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    padding: var(--gutter-s) 0;
+    background-color: #fff;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song {
+    margin: 0 0 var(--gutter-xs);
+    font-weight: bold;
+    font-size: var(--font-size-l);
+}
+
+.album {
+    font-style: italic;
+    font-size: var(--font-size-s);
+}
+
+.picture {
+    width: 56px;
+    margin: 0 var(--gutter-s);
+}

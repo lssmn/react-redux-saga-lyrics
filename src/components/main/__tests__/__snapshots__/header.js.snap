@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render without exploding 1`] = `
+<header>
+  <div>
+    react-redux-sagas-lyrics
+  </div>
+</header>
+`;

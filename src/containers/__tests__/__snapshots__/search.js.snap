@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Container Component should render without exploding 1`] = `
+<AutoComplete
+  items={Array []}
+  onChange={[Function]}
+  onSelect={[Function]}
+  value=""
+/>
+`;

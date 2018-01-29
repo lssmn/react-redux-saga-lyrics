@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoComplete Component should render without exploding 1`] = `
+<Autocomplete
+  autoHighlight={true}
+  getItemValue={[Function]}
+  inputProps={Object {}}
+  items={
+    Array [
+      Object {
+        "album": Object {},
+        "artist": Object {},
+        "title": "",
+      },
+    ]
+  }
+  menuStyle={
+    Object {
+      "border": "var(--border-width-s) solid var(--color-secondary)",
+      "borderRadius": "0",
+      "borderTopWidth": 0,
+      "boxSizing": "border-box",
+      "margin": "0 0 var(--gutter-xl)",
+      "position": "absolute",
+      "width": "var(--gutter-s)",
+      "zIndex": 1,
+    }
+  }
+  onChange={[Function]}
+  onMenuVisibilityChange={[Function]}
+  onSelect={[Function]}
+  renderInput={[Function]}
+  renderItem={[Function]}
+  renderMenu={[Function]}
+  selectOnBlur={false}
+  value=""
+  wrapperProps={Object {}}
+  wrapperStyle={
+    Object {
+      "display": "block",
+      "margin": "var(--gutter-xl) 0 var(--gutter-l)",
+    }
+  }
+/>
+`;
+
+exports[`AutoComplete Helpers should render without exploding 1`] = `
+<article
+  className="undefined false"
+>
+  <img
+    className={undefined}
+    src={undefined}
+  />
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      Object {}
+       - 
+      
+    </div>
+    <div
+      className={undefined}
+    >
+      Album: 
+    </div>
+  </div>
+</article>
+`;

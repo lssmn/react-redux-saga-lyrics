@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+}
+
+.lyrics {
+    white-space: pre-line;
+    line-height: var(--gutter-l);
+    font-size: var(--font-size-m);
+    color: var(--color-text);
+}

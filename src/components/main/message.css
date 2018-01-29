@@ -1,0 +1,27 @@
+.message {
+    border: var(--border-width-s) solid var(--color-secondary);
+    font-size: var(--font-size-l);
+    color: var(--color-text);
+}
+
+.message.success {
+    color: var(--color-status-success);
+    background-color: var(--color-status-success-bg);
+}
+
+.message.error {
+    color: var(--color-status-error);
+    background-color: var(--color-status-error-bg);
+}
+
+.s {
+    padding: var(--gutter-s);
+}
+
+.m {
+    padding: var(--gutter-m);
+}
+
+.l {
+    padding: var(--gutter-l);
+}
