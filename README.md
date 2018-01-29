@@ -4,10 +4,8 @@ A small lyrics search app built with React and Redux Saga using [create-react-ap
 
 ## Getting started
 
-To run the app locally, check the following steps:
-
 ```sh
-$ git clone [url]
+$ git clone https://github.com/lssmn/react-redux-saga-lyrics.git
 $ cd react-redux-saga-lyrics
 $ yarn install
 $ yarn start
