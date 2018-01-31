@@ -1,6 +1,7 @@
 {
   "name": "react-redux-saga-lyrics",
-  "version": "0.7.0",
+  "version": "0.8.0",
+  "licence": "ISC",
   "repository": {
     "type": "git",
     "url": "git://github.com/lssmn/react-redux-saga-lyrics.git"
