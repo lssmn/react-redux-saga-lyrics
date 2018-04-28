@@ -1,9 +1,14 @@
 {
   "name": "react-redux-saga-lyrics",
-  "version": "0.7.0",
+  "version": "0.0.0-development",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lssmn/react-redux-saga-lyrics.git"
+    "url": "https://github.com/lssmn/react-redux-saga-lyrics.git"
+  },
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/github"
+    ]
   },
   "jest": {
     "cacheDirectory": "<rootDir>/node_modules/.cache/jest",
@@ -63,7 +68,9 @@
     "gh-pages": "^1.1.0",
     "prettier": "1.7.4",
     "redux-jest": "^1.1.1",
-    "redux-saga-test-plan": "^3.3.0"
+    "redux-saga-test-plan": "^3.3.0",
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.7"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -109,7 +116,9 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "babel": {
     "presets": [
