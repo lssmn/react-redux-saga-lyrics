@@ -1,5 +1,6 @@
 {
   "name": "react-redux-saga-lyrics",
+  "description": "A small lyrics search app built with react and redux-saga",
   "version": "0.0.0-development",
   "licence": "ISC",
   "repository": {
