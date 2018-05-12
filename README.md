@@ -6,6 +6,8 @@
 
 A small lyrics search app built with React and Redux Saga using [create-react-app](https://github.com/facebook/create-react-app).
 
+[**Click here to open the live demo.**](http://iamaless.io/react-redux-saga-lyrics/)
+
 ## Getting started
 
 ```sh
